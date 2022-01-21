@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom utilities */
+html {
+  overflow: -moz-scrollbars-none;
+  scrollbar-width: none;
+}
+
+a strong {
+  color: blue;
+}
+
+.en-dash:before {
+  content: '';
+  display: inline-block;
+  width:40px;
+  margin-right: 15px;
+  border-bottom: 8px solid #FBDBD3;
+}
